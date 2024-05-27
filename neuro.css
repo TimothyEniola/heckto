@@ -6,7 +6,10 @@
 
 body{
     background-color: white;
-    width: 100%;
+/*     
+     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto  */
  }
 .bible{
     display: flex;
@@ -97,38 +100,34 @@ body{
     display: flex;
 }
 
-.exodus1 h6{
+.exodus1 select{
     height: 16px;
-    padding-top: 2px;
+    font-family: josefin sans;
+    font-size: 10px;
+    padding-top: 3px;
 }
 
-.exodus1 img{
-    width: 16px;
+.exodus2 select{
     height: 16px;
-}
-
-.exodus2{
-    display: flex;
+    font-family: josefin sans;
+    font-size: 10px;
 }
 
 .exodus2 h6{
     height: 16px;
     padding-top: 2px;
+    font-family: josefin sans;
 }
-
-.exodus2 img{
-    width: 16px;
-    height: 16px;
-}
-
 
 .exodus3{
     display: flex;
+    padding-top: 3px;
 }
 
 .exodus3 h6{
     height: 16px;
     padding-top: 2px;
+    font-family: josefin sans;
 }
 
 .exodus3 img{
@@ -138,11 +137,13 @@ body{
 
 .exodus4{
     display: flex;
+    padding-top: 2px;
 }
 
 .exodus4 h6{
     height: 16px;
-    padding-top: 2px;
+    padding-top: 4px;
+    font-family: josefin sans;
 }
 
 .exodus4 img{
@@ -152,6 +153,7 @@ body{
 
 .exodus5 img{
     padding-left: 10px;
+    padding-top: 2px;
 }
 .one{
     background-color: #7E33E0;
@@ -173,14 +175,18 @@ body{
     display: flex;
     list-style: none;
     margin-left: 80px;
-    gap: 20px;
+    gap: 10px;
     padding-top: 10px;
     font-family: josefin sans;
     font-size: 16px;
 }
+.joom{
+    display: none;
+}
 .hambs{
     display: none;
 }
+
 ul a{
     text-decoration: none;
     color: #FB2E86;
@@ -190,11 +196,11 @@ ul :hover{
 }
 .clore {
     display: flex;
-    padding-right: 100px;
+    padding-right: 110px;
+    height: 33px;
 }
 .clore img{
     background-color: #FB2E86;
-    border-radius: 2px;
 }
 .two header{
     display: flex;
@@ -505,6 +511,497 @@ font-size: 16px;
 color:rgba(157, 160, 174, 1) ;
 }
 
+
+@media screen and (max-width:1194px){
+    
+    .bible{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 13px;
+    }
+    
+    .genesis{
+        display: flex;
+        gap: 50px;
+    }
+    .genesis1{
+        display: flex;
+        gap: 3px;
+    }
+    
+    .genesis1 img{
+        width: 16px;
+        height: 16px;
+        padding-top: 2px;
+    }
+    .genesis1 a{
+        width: 171px;
+        height: 16px;
+        text-decoration: none;
+        color: white;
+        font-family: josefin sans;
+        font-size: 16px;
+    }
+    
+    .genesis2{
+        display: flex;
+        margin-left: 10px;
+        gap: 3px;
+    }
+    
+    .lang{
+        width: 55px;
+        background: transparent;
+    }
+    .ps{
+        border: none;
+        background: transparent;
+    }
+    .curre{
+        width: 50px;
+        background: transparent;
+    }
+        .exodus1 select{  
+            font-family:Josefin Sans;
+            font-size: 16px;
+            text-decoration: none;
+            color: white;
+            border: none;
+            font-family:Josefin Sans;
+            font-size: 10px;
+        }
+        .exodus2 select{
+            text-decoration: none;
+            color: white;
+            border: none;
+            font-family:Josefin Sans;
+            font-size: 10px;
+        }
+        
+    .genesis2 img{
+        width: 16px;
+        height: 16px;
+        padding-top: 2px;
+    }
+    
+    .genesis2 a{
+        width: 97px;
+        height: 16px;
+        text-decoration: none;
+        color: white;
+        font-family: Josefin Sans;
+        font-size: 16px;
+    }
+    
+    .exodus{
+        display: flex;
+        color: white;
+        gap: 3px;
+    }
+    
+    .exodus1{
+        display: flex;
+    }
+    
+    .exodus1 h6{
+        height: 16px;
+        padding-top: 2px;
+    }
+    
+    .exodus1 img{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .exodus2{
+        display: flex;
+    }
+    
+    .exodus2 h6{
+        height: 16px;
+        padding-top: 2px;
+    }
+    
+    .exodus2 img{
+        width: 16px;
+        height: 16px;
+    }
+    
+    
+    .exodus3{
+        display: flex;
+    }
+    
+    .exodus3 h6{
+        height: 16px;
+        padding-top: 2px;
+    }
+    
+    .exodus3 img{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .exodus4{
+        display: flex;
+    }
+    
+    .exodus4 h6{
+        height: 16px;
+        padding-top: 2px;
+    }
+    
+    .exodus4 img{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .exodus5 img{
+        padding-left: 10px;
+    }
+    .one{
+        background-color: #7E33E0;
+      width: 100%;
+      height: 44px;
+     }
+    
+    
+    
+    .drug{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+    }
+    .logo{
+         margin-left: 120px;
+    }
+     ul{
+        display: flex;
+        list-style: none;
+        margin-left: 80px;
+        gap: 20px;
+        padding-top: 10px;
+        font-family: josefin sans;
+        font-size: 16px;
+    }
+    .hambs{
+        display: none;
+    }
+    ul a{
+        text-decoration: none;
+        color: #FB2E86;
+    }
+    ul :hover{
+        color: #FB2E86;
+    }
+    .clore {
+        display: flex;
+        padding-right: 100px;
+    }
+    .clore img{
+        background-color: #FB2E86;
+        border-radius: 2px;
+    }
+    .two header{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        background-color: white;
+    }
+    
+    .bread{
+        display: block;
+        background-color:rgba(246, 245, 255, 1);
+        height: 200px;
+        padding-top: 120px;
+        padding-left: 250px;
+        line-height: 40px;
+    }
+    .b2d{
+        font-family: josefin sans;
+        font-size: 36px;
+        color:rgba(16, 23, 80, 1);
+    }
+    .pandp{
+        display: flex;
+        font-family: lato;
+        font-size: 16px;
+        gap: 10px;
+    }
+    
+    .pandp :hover{
+    color: #FB2E86;
+    }
+    
+    /* .section */
+    
+    .brabos{
+        font-family: josefin sans;
+        font-size: 36px;
+        color: rgba(21, 24, 117, 1);
+    }
+    
+    .brabosp{
+        font-family: lato;
+        font-size: 16px;
+        color:rgba(138, 143, 185, 1);
+        margin-top: 30px;
+        line-height: 20px;
+    }
+    .mazda {
+        margin-top: 30px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    
+    .peugeout{
+        font-family: josefin sans;
+        font-size: 36px;
+        color: rgba(21, 24, 117, 1);
+    }
+    
+    .benz{
+        display: flex;
+        gap: 5px;
+    }
+    
+    .benz img{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .benz a{
+    text-decoration: none;
+    font-family: lato;
+    font-size: 14px;
+    line-height: 25px;
+    color: 
+    rgba(138, 143, 185, 1);
+    }
+    
+    
+    .pilot{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .pilot img{
+        width: 45px;
+        height: 45px;
+        
+    }
+    
+    .pilot p{
+    text-decoration: none;
+    font-family: lato;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(138, 143, 185, 1);
+    }
+    
+    
+    
+    .pajero{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .pajero img{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .pajero p{
+    text-decoration: none;
+    font-family: lato;
+    font-size: 14px;
+    line-height: 20px;
+    color:rgba(138, 143, 185, 1);
+    }
+    
+    
+    
+    .nissan{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .nissan img{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .nissan p{
+    text-decoration: none;
+    font-family: lato;
+    font-size: 14px;
+    line-height: 20px;
+    color:rgba(138, 143, 185, 1);
+    }
+    .ferrari{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 30px;
+        
+        
+    }
+    .camry{
+        display: flex;
+        gap: 150px;
+    }
+    .toyota{
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    
+    .diet{
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    .carbohydrate{
+        font-family: josefin sans;
+        font-size: 36px;
+        color:rgba(21, 24, 117, 1);
+        margin-bottom: 20px;
+    }
+    
+    .diet p{
+        
+        font-family: lato;
+        font-size: 14px;
+        color:rgba(138, 143, 185, 1);
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+    
+    .vitamin{
+        display: flex;
+        gap: 20px;
+    }
+    .oil input{
+        width: 190px;
+        height: 40px;
+    }
+    
+    .fat input{
+        width: 190px;
+        height: 40px;
+        font-family: lato;
+    }
+    
+    
+    .water input{
+        width: 400px;
+        height: 40px;
+        margin-top: 30px;
+        color: rgba(138, 143, 185, 1);
+        font-family: lato;
+    }
+    
+    .mineral textarea{
+        width: 400px;
+        height: 166px;
+        margin-top: 30px;
+        font-family: lato;
+    }
+    .mineral button{
+        width: 157px;
+        height: 40px;
+        color: white;
+        background-color: #FB2E86;
+        border: none;
+        margin-top: 30px;
+        font-family: josefin sans;
+    }
+    .diet{
+        display: flex;
+    }
+    .salt img{
+    width: 500px;
+    height: 500px;
+    }
+    
+    
+    .twelve{
+        background-color: rgba(238, 239, 251, 1) ;
+        margin-top: 100px;
+           display: flex;
+        justify-content: space-evenly;
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .jeremiah1 img{
+      width: 110px;
+      height: 38px;
+      color:rgba(0, 0, 0, 1);
+      margin-bottom: 30px;
+    }
+    
+    .jeremiah2{
+        display: flex;
+        width: 344px;
+        height: 44px;
+        background-color: white;
+        border: none;
+        margin-bottom: 20px;
+    }
+    
+    
+    .jeremiah2 input{
+    width: 300px;
+    }
+    
+    .jeremiah2 button{
+        display: flex;
+        width: 135px;
+        height: 44px;
+        background-color: #FB2E86;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: josefin sans;
+    }
+    
+    .jeremiah3{
+        font-family: lato;
+        font-size:16px ;
+        color: rgba(145, 150, 170, 1);
+        line-height: 25px;
+    }
+    
+    .titus{
+    line-height: 40px;
+    color: 
+    rgba(138, 143, 185, 1);
+    }
+    
+    .titus h4{
+    margin-bottom:20px ;
+    color:rgba(0, 0, 0, 1);
+    font-family: josefin sans;
+    font-size: 22px;
+    }
+    
+    .titus p{
+        font-family: lato;
+        font-size: 16px;
+    }
+    .thirteen{
+        background-color: rgba(231, 228, 248, 1);
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    
+    .thirteen {
+    font-family:lato ;
+    font-size: 16px;
+    color:rgba(157, 160, 174, 1) ;
+    }
+    }
+    
 @media screen and (max-width:1024px){
     
 .bible{
@@ -996,6 +1493,483 @@ color:rgba(157, 160, 174, 1) ;
 }
 
 
+@media screen and (max-width:884px){
+    
+    .bible{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 13px;
+    }
+    
+    .genesis{
+        display: flex;
+        gap: 50px;
+    }
+    .genesis1{
+        display: flex;
+        gap: 3px;
+    }
+    
+    .genesis1 img{
+        width: 16px;
+        height: 16px;
+        padding-top: 2px;
+    }
+    .genesis1 a{
+        width: 171px;
+        height: 16px;
+        text-decoration: none;
+        color: white;
+        font-family: josefin sans;
+        font-size: 16px;
+        padding-top: 2px;
+    }
+    
+    .genesis2{
+        display: flex;
+        margin-left: 10px;
+        gap: 3px;
+    }
+    
+    .genesis2 img{
+        width: 16px;
+        height: 16px;
+        padding-top: 2px;
+    }
+    
+    .genesis2 a{
+        width: 97px;
+        height: 16px;
+        text-decoration: none;
+        color: white;
+        font-family: Josefin Sans;
+        font-size: 16px;
+        padding-top: 2px;
+    }
+    
+    .exodus{
+        display: flex;
+        color: white;
+        gap: 3px;
+    }
+.lang{
+    width: 75px;
+    background: transparent;
+}
+
+.curre{
+    width: 60px;
+    background: transparent;
+}
+    .exodus1 select{  
+        font-family:Josefin Sans;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        border: none;
+        font-family:Josefin Sans;
+        font-size: 16px;
+    }
+    .exodus2 select{
+        text-decoration: none;
+        color: white;
+        border: none;
+        font-family:Josefin Sans;
+        font-size: 16px;
+    }
+    
+    .exodus3{
+        display: flex;
+    }
+    
+    .exodus3 h6{
+        height: 16px;
+        padding-top: 2px;
+    }
+    
+    .exodus3 img{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .exodus4{
+        display: flex;
+    }
+    
+    .exodus4 h6{
+        height: 16px;
+        padding-top: 2px;
+    }
+    
+    .exodus4 img{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .exodus5 img{
+        padding-left: 10px;
+    }
+    .one{
+        background-color: #7E33E0;
+      width: 100%;
+      height: 44px;
+     }
+    
+    
+    .hambs{
+        display: block;
+        margin-left: 400px;
+        font-size: 40px;
+    }
+    .drug{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+    }
+    .logo{
+         margin-left: 60px;
+    }
+     ul{
+        display: none;
+        list-style: none;
+        margin-left: 80px;
+        gap: 20px;
+        padding-top: 10px;
+        font-family: josefin sans;
+        font-size: 16px;
+    }
+    ul select{
+        text-decoration: none;
+        color: #FB2E86;
+        border: none;
+    }
+    ul :hover{
+        color: #FB2E86;
+    }
+    .clore {
+        display: flex;
+        /* justify-content: center; */
+        margin-left: 100px;
+        height: 50px;
+        padding-right: 100px;
+    }
+    
+    .clore img{
+        background-color: #FB2E86;
+        border-radius: 2px;
+    }
+    .two header{
+        display: block;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        background-color: white;
+    }
+    
+    .bread{
+        display: block;
+        background-color:rgba(246, 245, 255, 1);
+        height: 200px;
+        padding-top: 120px;
+        padding-left: 250px;
+        line-height: 40px;
+    }
+    .b2d{
+        font-family: josefin sans;
+        font-size: 36px;
+        color:rgba(16, 23, 80, 1);
+    }
+    .pandp{
+        display: flex;
+        font-family: lato;
+        font-size: 16px;
+        gap: 10px;
+    }
+    
+    .pandp :hover{
+    color: #FB2E86;
+    }
+    
+    /* .section */
+    
+    .brabos{
+        font-family: josefin sans;
+        font-size: 36px;
+        color: rgba(21, 24, 117, 1);
+    }
+    
+    .brabosp{
+        font-family: lato;
+        font-size: 16px;
+        color:rgba(138, 143, 185, 1);
+        margin-top: 30px;
+        line-height: 20px;
+    }
+    .mazda {
+        margin-top: 30px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    
+    .peugeout{
+        font-family: josefin sans;
+        font-size: 36px;
+        color: rgba(21, 24, 117, 1);
+    }
+    
+    .benz{
+        display: flex;
+        gap: 5px;
+    }
+    
+    .benz img{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .benz a{
+    text-decoration: none;
+    font-family: lato;
+    font-size: 14px;
+    line-height: 25px;
+    color: 
+    rgba(138, 143, 185, 1);
+    }
+
+    .lambo{
+        padding-top: 40px;
+    }
+    
+    .pilot{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .pilot img{
+        width: 45px;
+        height: 45px;
+        
+    }
+    
+    .pilot p{
+    text-decoration: none;
+    font-family: lato;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(138, 143, 185, 1);
+    }
+    
+    
+    
+    .pajero{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .pajero img{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .pajero p{
+    text-decoration: none;
+    font-family: lato;
+    font-size: 14px;
+    line-height: 20px;
+    color:rgba(138, 143, 185, 1);
+    }
+    
+    
+    
+    .nissan{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .nissan img{
+        width: 45px;
+        height: 45px;
+    }
+    
+    .nissan p{
+    text-decoration: none;
+    font-family: lato;
+    font-size: 14px;
+    line-height: 20px;
+    color:rgba(138, 143, 185, 1);
+    }
+    .ferrari{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 30px;
+        
+        
+    }
+    .camry{
+        display: block;
+        gap: 150px;
+    }
+    .toyota{
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    
+    .diet{
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    .carbohydrate{
+        font-family: josefin sans;
+        font-size: 36px;
+        color:rgba(21, 24, 117, 1);
+        margin-bottom: 20px;
+    }
+    
+    .diet p{
+        
+        font-family: lato;
+        font-size: 16px;
+        color:rgba(138, 143, 185, 1);
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+    .vitamin{
+        display: flex;
+        gap: 20px;
+    }
+    .oil input{
+        width: 190px;
+        height: 40px;
+    }
+    
+    
+    .fat input{
+        width: 190px;
+        height: 40px;
+        font-family: lato;
+    }
+    
+    
+    .water input{
+        width: 400px;
+        height: 40px;
+        margin-top: 30px;
+        color: rgba(138, 143, 185, 1);
+        font-family: lato;
+    }
+    
+    .mineral textarea{
+        width: 400px;
+        height: 166px;
+        margin-top: 30px;
+        font-family: lato;
+    }
+    .mineral button{
+        width: 157px;
+        height: 40px;
+        color: white;
+        background-color: #FB2E86;
+        border: none;
+        margin-top: 30px;
+        font-family: josefin sans;
+    }
+    .diet{
+        display: block;
+    }
+    
+    .salt img{
+    width: 500px;
+    height: 500px;
+    padding-left: 70px;
+    }
+    
+    
+    .twelve{
+        background-color: rgba(238, 239, 251, 1) ;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-top: 100px;
+        padding-bottom: 150px;
+        padding-left: 100px;
+        gap: 30px;
+    }
+
+    .jeremiah1 img{
+      width: 110px;
+      height: 38px;
+      color:rgba(0, 0, 0, 1);
+      margin-bottom: 30px;
+    }
+    
+    .jeremiah2{
+        display: flex;
+        width: 344px;
+        height: 44px;
+        background-color: white;
+        border: none;
+        margin-bottom: 20px;
+    }
+    
+    
+    .jeremiah2 input{
+    width: 300px;
+    }
+    
+    .jeremiah2 button{
+        display: flex;
+        width: 135px;
+        height: 44px;
+        background-color: #FB2E86;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: josefin sans;
+    }
+    
+    .jeremiah3{
+        font-family: lato;
+        font-size:16px ;
+        color: rgba(145, 150, 170, 1);
+        line-height: 25px;
+    }
+    
+    .titus{
+    line-height: 40px;
+    color: 
+    rgba(138, 143, 185, 1);
+    }
+    
+    .titus h4{
+    margin-bottom:20px ;
+    color:rgba(0, 0, 0, 1);
+    font-family: josefin sans;
+    font-size: 22px;
+    }
+    
+    .titus p{
+        font-family: lato;
+        font-size: 16px;
+    }
+    .thirteen{
+        background-color: rgba(231, 228, 248, 1);
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    
+    .thirteen {
+    font-family:lato ;
+    font-size: 16px;
+    color:rgba(157, 160, 174, 1) ;
+    }
+    }
+
+/* o */
+
+
+
 @media screen and (max-width:768px){
     
     .bible{
@@ -1471,8 +2445,486 @@ color:rgba(157, 160, 174, 1) ;
 
 
 
+
     
-@media screen and (max-width:425px){
+    @media screen and (max-width:500px){
+    
+        .bible{
+            display: block;
+            justify-content: space-evenly;
+            /* padding-top: 13px; */
+        }
+        
+        .genesis{
+            display: flex;
+            gap: 50px;
+            padding-bottom: 20px;
+            padding-left: 14px;
+        }
+        .genesis1{
+            display: flex;
+            gap: 3px;
+        }
+        
+        .genesis1 img{
+            width: 16px;
+            height: 16px;
+            padding-top: 2px;
+        }
+        .genesis1 a{
+            width: 171px;
+            height: 16px;
+            text-decoration: none;
+            color: white;
+            font-family: josefin sans;
+            font-size: 16px;
+            padding-top: 3px;
+        }
+        
+        .genesis2{
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            gap: 3px;
+        }
+        
+        .genesis2 img{
+            width: 16px;
+            height: 16px;
+            padding-top: 2px;
+        }
+        
+        .genesis2 a{
+            width: 97px;
+            height: 16px;
+            text-decoration: none;
+            color: white;
+            font-family: Josefin Sans;
+            font-size: 16px;
+            padding-top: 3px;
+        }
+        
+        .exodus{
+            display: flex;
+            justify-content: center;
+            color: white;
+            gap: 3px;
+            padding-bottom: 10px;
+        }
+    .lang{
+        width: 75px;
+        background: transparent;
+    }
+    
+    .curre{
+        width: 60px;
+        background: transparent;
+    }
+        .exodus1 select{  
+            font-family:Josefin Sans;
+            font-size: 16px;
+            text-decoration: none;
+            color: white;
+            border: none;
+            font-family:Josefin Sans;
+            font-size: 16px;
+        }
+        .exodus2 select{
+            text-decoration: none;
+            color: white;
+            border: none;
+            font-family:Josefin Sans;
+            font-size: 16px;
+        }
+        
+        .exodus3{
+            display: flex;
+        }
+        
+        .exodus3 h6{
+            height: 16px;
+            padding-top: 2px;
+        }
+        
+        .exodus3 img{
+            width: 16px;
+            height: 16px;
+        }
+        
+        .exodus4{
+            display: flex;
+        }
+        
+        .exodus4 h6{
+            height: 16px;
+            padding-top: 2px;
+        }
+        
+        .exodus4 img{
+            width: 16px;
+            height: 16px;
+        }
+        
+        .exodus5 img{
+            padding-left: 10px;
+        }
+        .one{
+            background-color: #7E33E0;
+          width: 100%;
+          height: 50%;
+         }
+        
+        
+        .hambs{
+            display: block;
+            margin-left: -70px;
+            font-size: 30px;
+        }
+        .drug{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 20px;
+        }
+        .logo{
+             margin-right: 0px;
+        }
+         ul{
+            display: none;
+            list-style: none;
+            margin-left: 80px;
+            gap: 20px;
+            padding-top: 10px;
+            font-family: josefin sans;
+            font-size: 16px;
+        }
+        ul select{
+            text-decoration: none;
+            color: #FB2E86;
+            border: none;
+        }
+        ul :hover{
+            color: #FB2E86;
+        }
+        .clore {
+            display: flex;
+            /* justify-content: center; */
+            margin-left: 30px;
+            height: 30px;
+            padding-right: 0px;
+        }
+        
+        .clore img{
+            background-color: #FB2E86;
+            border-radius: 2px;
+        }
+        .two header{
+            display: block;
+            justify-content: space-evenly;
+            padding-top: 20px;
+            background-color: white;
+        }
+        
+        .bread{
+            display: block;
+            background-color:rgba(246, 245, 255, 1);
+            height: 200px;
+            padding-top: 120px;
+            padding-left: 50px;
+            line-height: 40px;
+        }
+        .b2d{
+            font-family: josefin sans;
+            font-size: 36px;
+            color:rgba(16, 23, 80, 1);
+        }
+        .pandp{
+            display: flex;
+            font-family: lato;
+            font-size: 16px;
+            gap: 10px;
+        }
+        
+        .pandp :hover{
+        color: #FB2E86;
+        }
+        
+        /* .section */
+        
+        .brabos{
+            font-family: josefin sans;
+            font-size: 32px;
+            color: rgba(21, 24, 117, 1);
+        }
+        
+        .brabosp{
+            font-family: lato;
+            font-size: 16px;
+            color:rgba(138, 143, 185, 1);
+            margin-top: 30px;
+            line-height: 20px;
+        }
+        .mazda {
+            margin-top: 30px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        
+        .peugeout{
+            font-family: josefin sans;
+            font-size: 36px;
+            color: rgba(21, 24, 117, 1);
+        }
+        
+        .benz{
+            display: flex;
+            gap: 5px;
+        }
+        
+        .benz img{
+            width: 45px;
+            height: 45px;
+        }
+        
+        .benz a{
+        text-decoration: none;
+        font-family: lato;
+        font-size: 14px;
+        line-height: 25px;
+        color: 
+        rgba(138, 143, 185, 1);
+        }
+    
+        .lambo{
+            padding-top: 40px;
+        }
+        
+        .pilot{
+            display: flex;
+            gap: 10px;
+        }
+        
+        .pilot img{
+            width: 45px;
+            height: 45px;
+            
+        }
+        
+        .pilot p{
+        text-decoration: none;
+        font-family: lato;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(138, 143, 185, 1);
+        }
+        
+        
+        
+        .pajero{
+            display: flex;
+            gap: 10px;
+        }
+        
+        .pajero img{
+            width: 45px;
+            height: 45px;
+        }
+        
+        .pajero p{
+        text-decoration: none;
+        font-family: lato;
+        font-size: 14px;
+        line-height: 20px;
+        color:rgba(138, 143, 185, 1);
+        }
+        
+        
+        
+        .nissan{
+            display: flex;
+            gap: 10px;
+        }
+        
+        .nissan img{
+            width: 45px;
+            height: 45px;
+        }
+        
+        .nissan p{
+        text-decoration: none;
+        font-family: lato;
+        font-size: 14px;
+        line-height: 20px;
+        color:rgba(138, 143, 185, 1);
+        }
+        .ferrari{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-top: 30px;
+            row-gap: 30px;
+        }
+        .camry{
+            display: block;
+            gap: 150px;
+        }
+        .toyota{
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+        
+        .diet{
+            margin-left: 50px;
+            margin-top: 150px;
+        }
+        .carbohydrate{
+            font-family: josefin sans;
+            font-size: 36px;
+            color:rgba(21, 24, 117, 1);
+            margin-bottom: 20px;
+        }
+        
+        .diet p{
+            
+            font-family: lato;
+            font-size: 16px;
+            color:rgba(138, 143, 185, 1);
+            margin-bottom: 20px;
+            line-height: 20px;
+        }
+        .vitamin{
+            display: flex;
+            gap: 20px;
+        }
+        .oil input{
+            width: 139px;
+            height: 40px;
+        }
+        
+        
+        .fat input{
+            width: 139px;
+            height: 40px;
+            font-family: lato;
+        }
+        
+        
+        .water input{
+            width: 300px;
+            height: 40px;
+            margin-top: 30px;
+            color: rgba(138, 143, 185, 1);
+            font-family: lato;
+        }
+        
+        .mineral textarea{
+            width: 300px;
+            height: 166px;
+            margin-top: 30px;
+            font-family: lato;
+        }
+        .mineral button{
+            width: 157px;
+            height: 40px;
+            color: white;
+            background-color: #FB2E86;
+            border: none;
+            margin-top: 30px;
+            font-family: josefin sans;
+        }
+        .diet{
+            display: block;
+        }
+        
+        .salt img{
+        width: 270px;
+        height: 270px;
+        margin-top: 30px;
+        }
+        
+        
+        .twelve{
+            background-color: rgba(238, 239, 251, 1) ;
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            padding-top: 100px;
+            padding-bottom: 150px;
+            padding-left: 50px;
+            gap: 30px;
+        }
+    
+        .jeremiah1 img{
+          width: 110px;
+          height: 38px;
+          color:rgba(0, 0, 0, 1);
+          margin-bottom: 30px;
+        }
+        
+        .jeremiah2{
+            display: flex;
+            width: 344px;
+            height: 44px;
+            background-color: white;
+            border: none;
+            margin-bottom: 20px;
+        }
+        
+        
+        .jeremiah2 input{
+        width: 300px;
+        }
+        
+        .jeremiah2 button{
+            display: flex;
+            width: 135px;
+            height: 44px;
+            background-color: #FB2E86;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: josefin sans;
+        }
+        
+        .jeremiah3{
+            font-family: lato;
+            font-size:16px ;
+            color: rgba(145, 150, 170, 1);
+            line-height: 25px;
+        }
+        
+        .titus{
+        line-height: 40px;
+        color: 
+        rgba(138, 143, 185, 1);
+        }
+        
+        .titus h4{
+        margin-bottom:20px ;
+        color:rgba(0, 0, 0, 1);
+        font-family: josefin sans;
+        font-size: 22px;
+        }
+        
+        .titus p{
+            font-family: lato;
+            font-size: 16px;
+        }
+        .thirteen{
+            background-color: rgba(231, 228, 248, 1);
+            display: flex;
+            justify-content: space-around;
+            padding-top: 10px;
+        }
+        
+        .thirteen {
+        font-family:lato ;
+        font-size: 16px;
+        color:rgba(157, 160, 174, 1) ;
+        }
+        }
+    
+@media screen and (max-width:430px){
     
     .bible{
         display: block;
